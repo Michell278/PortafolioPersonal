@@ -1,0 +1,64 @@
+/* Estilos adicionales para alinear los enlaces al centro */
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.nav-item {
+    margin-right: 15px; /* Espacio entre elementos de la barra de navegación */
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-purple {
+    background-color: purple;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: #6a1b9a;
+}
+
+.btn-purple:focus {
+    box-shadow: 0 0 0 0.25rem rgba(139, 0, 139, 0.5);
+}
+
+body {
+    background-image: url('/Archivos/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    background-color: #be8cf0;   
+}
+#downloadButton{
+    background-color: #7c36a8;
+}
+#downloadButton:hover{
+    color: #6a1b9a;
+}
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: #d400ff;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+  }
+  
+  .social-media a:hover {
+    color: #1f242d;
+    box-shadow: 0 0 20pxrgb(255, 0, 0);
+  }
+  .my-card {
+    margin-top: 20px; /* Puedes ajustar el valor según la separación deseada */
+}
